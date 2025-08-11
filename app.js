@@ -29,10 +29,12 @@ for (let i = 0;i < amigos.length; i++){
 //Se crea la función para Sortear los amigos.
 function sortearAmigo (){
     //Validar que haya amigos disponibles
-if (amigos.length === "") {
+if (amigos.length === 0) {
     alert("No hay amigos para sortear.");
     return;
     }
+const indice = math.floor(math.random()*amigos.length);
+const amigoSorteado = amigos[indice]
 
 
 }
