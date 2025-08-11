@@ -20,10 +20,11 @@ Este proyecto forma parte de un reto de programación para fortalecer habilidade
 4. El resultado se mostrará en pantalla.
 
 ## 📂 Estructura del proyecto
-juego-amigo-secreto/
-├── index.html # Estructura principal de la aplicación
-├── style.css # Estilos de la interfaz
-├── app.js # Lógica en JavaScript
-├── assets/ # Imágenes y recursos
-└── README.md # Documentación del proyecto
+juego-amigo-secreto:
+
+- index.html # Estructura principal de la aplicación
+- style.css # Estilos de la interfaz
+- app.js # Lógica en JavaScript
+- assets/ # Imágenes y recursos
+- README.md # Documentación del proyecto
 
