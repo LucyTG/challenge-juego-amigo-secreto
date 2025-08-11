@@ -33,9 +33,10 @@ if (amigos.length === 0) {
     alert("No hay amigos para sortear.");
     return;
     }
-const indice = math.floor(math.random()*amigos.length);
-const amigoSorteado = amigos[indice]
+const indice = math.floor(math.random()*amigos.length); //Generar un índice aleatorio
+const amigoSorteado = amigos[indice]; //Obtener el nombre sorteado
 
-
+const resultado = document.getElementById("resultado");
+resultado.innerHTML = `<li>El amigo secreto es: <strong> ${amigoSorteado} </strong></li>`; //Mostrar el resultado del sorteo
 }
 
