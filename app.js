@@ -1,1 +1,1 @@
-let // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+let amigos = []; // Creo la variable "amigos" que es donde se almacenara el nombre de las personas que van a ser parte del sorteo function agregarAmigo
