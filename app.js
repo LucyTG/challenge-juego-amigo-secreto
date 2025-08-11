@@ -33,7 +33,7 @@ function sortearAmigo() {
         alert("No hay amigos para sortear.");
         return;
     }
-    const indice = math.floor(math.random() * amigos.length); //Generar un índice aleatorio
+    const indice = Math.floor(Math.random() * amigos.length); //Generar un índice aleatorio
     const amigoSorteado = amigos[indice]; //Obtener el nombre sorteado
 
     const resultado = document.getElementById("resultado");
