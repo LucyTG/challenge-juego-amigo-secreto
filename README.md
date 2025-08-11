@@ -11,6 +11,9 @@ Este proyecto forma parte de un reto de programación para fortalecer habilidade
 - Mostrar la lista actualizada en pantalla.
 - Sortear un nombre aleatorio.
 
+  ## 📷 Vista previa del proyecto
+![Captura del proyecto](/Users/victorpinto/Documents/Amigo_Secreto.png)
+
 ---
 
 ## 🚀 Cómo usar
@@ -26,5 +29,8 @@ juego-amigo-secreto:
 - style.css # Estilos de la interfaz
 - app.js # Lógica en JavaScript
 - assets/ # Imágenes y recursos
-- README.md # Documentación del proyecto
+- README.md # Documentación del proyecto.
+
+  ## ✨ Autor
+**Lucely Torres en colaboracion con Alura Latam** –(https://github.com/LucyTG)
 
