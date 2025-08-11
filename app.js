@@ -28,7 +28,12 @@ for (let i = 0;i < amigos.length; i++){
 }
 //Se crea la función para Sortear los amigos.
 function sortearAmigo (){
+    //Validar que haya amigos disponibles
+if (amigos.length === "") {
+    alert("No hay amigos para sortear.");
+    return;
+    }
 
-    
+
 }
 
