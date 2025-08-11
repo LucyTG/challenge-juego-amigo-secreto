@@ -17,6 +17,7 @@ actualizarLista(); //Actualiza la lista en la pantalla.
 //Se crea la funcion que nos va ayudar a actualizar la lista.
 function actualizarLista(){
 const lista = document.getElementById("listaAmigos");
+lista.innerHTML = ""; // Vacía la lista antes de volver a llenarla para evitar duplicados.
 
 }
 
