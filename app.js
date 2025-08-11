@@ -10,4 +10,6 @@ if (nombre === ""){
     input.focus(); // Devuelve el cursor al campo para que pueda escribir.
     return;
 }
+amigos.push(); // Para agregar un nuevo amigo a la lista.
+
 }
