@@ -11,6 +11,6 @@ if (nombre === ""){
     return;
 }
 amigos.push(nombre); // Para agregar un nuevo amigo a la lista.
-
+input.value = ""; //Borra el texto que estaba en el campo para que el usuario pueda escribir otro nombre.
 
 }
