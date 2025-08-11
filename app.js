@@ -9,7 +9,7 @@ if (nombre === ""){
     alert("Por favor, inserte un nombre.");
     input.focus(); // Devuelve el cursor al campo para que pueda escribir.
     return;
-}
+    }
 amigos.push(nombre); // Para agregar un nuevo amigo a la lista.
 input.value = ""; //Borra el texto que estaba en el campo para que el usuario pueda escribir otro nombre.
 actualizarLista(); //Actualiza la lista en la pantalla.
@@ -24,7 +24,11 @@ for (let i = 0;i < amigos.length; i++){
     const elementoLista = document.createElement("li"); //Creamos un nuevo elemento de lista <li>
     elementoLista.textContent = amigos[i];
     lista.appendChild (elementoLista);//Agregamos el <li> como hijo del <ul>
+    }
 }
+//Se crea la función para Sortear los amigos.
+function sortearAmigo (){
 
+    
 }
 
