@@ -22,6 +22,8 @@ lista.innerHTML = ""; // Vacía la lista antes de volver a llenarla para evitar 
 //Itirarar para recorrer el Array
 for (let i = 0;i < amigos.length; i++){
     const elementoLista = document.createElement("li"); //Creamos un nuevo elemento de lista <li>
+    elementoLista.textContent = amigos[i];
+    lista.appendChild (elementoLista);//Agregamos el <li> como hijo del <ul>
 }
 
 }
