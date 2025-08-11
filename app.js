@@ -19,5 +19,10 @@ function actualizarLista(){
 const lista = document.getElementById("listaAmigos");
 lista.innerHTML = ""; // Vacía la lista antes de volver a llenarla para evitar duplicados.
 
+//Itirarar para recorrer el Array
+for (let i = 0;i < amigos.length; i++){
+    const elementoLista = document.createElement("li"); //Creamos un nuevo elemento de lista <li>
+}
+
 }
 
