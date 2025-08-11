@@ -11,9 +11,6 @@ Este proyecto forma parte de un reto de programación para fortalecer habilidade
 - Mostrar la lista actualizada en pantalla.
 - Sortear un nombre aleatorio.
 
-  ## 📷 Vista previa del proyecto
-![Captura del proyecto](/Users/victorpinto/Documents/Amigo_Secreto.png)
-
 ---
 
 ## 🚀 Cómo usar
